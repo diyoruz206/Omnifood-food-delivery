@@ -1,0 +1,77 @@
+.contact{
+    padding: 46px 0 128px 0;
+    .contact__content{
+        .wrapper{
+            display: flex;
+            box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.15);
+            border-radius: 11px;
+            background: linear-gradient(105.93deg, #EB984E 0%, #E67E22 100%);
+            overflow: hidden;
+            form{
+                padding: 48px 64px 64px 64px;
+                
+                .title{
+                    margin-bottom: 48px;
+                    h2{
+                        color: #45260A;
+                        margin-bottom: 32px;
+                    }
+                    .descr{
+                        font-size: 18px;
+                        line-height: 1.8;
+                        text-transform: none;
+                        font-weight: 400;
+                        color: #45260A;
+                    }
+                }
+                .form__elem{
+                    display: flex;
+                    flex-wrap: wrap;
+                    row-gap: 24px;
+                    justify-content: space-between;
+                    input, label{
+                        display: block;
+                    }
+                    label{
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #45260A;
+                        margin-bottom: 12px;
+                    }
+                    label{
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #45260A;
+                        margin-bottom: 12px;
+                    }
+                        &:focus{
+                            box-shadow: 0 0 0 8px #45260a8d;
+                        }
+                    }
+                    .form-btn{
+                        align-self: flex-end;
+                        button{
+                            width: 300px;
+                            padding: 14px 0;
+                            font-weight: 500;
+                            font-size: 20px;
+                            color: #D9D9D9;
+                            background: #45260A;
+                            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+                            border-radius: 9px;
+                            border: 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .contact__img{
+                background-color: blue;
+                img{
+                    height: 100%;
+                    display: block;
+                };
+            }
+        }
+    }
+}

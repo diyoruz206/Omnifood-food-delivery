@@ -1,0 +1,138 @@
+.pricing {
+    padding: 96px 0;
+
+    .title {
+        margin-bottom: 90px;
+    }
+
+    .pricing-cards {
+        display: flex;
+        justify-content: center;
+        column-gap: 64px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 402px;
+            background-color: white;
+            border: 2px solid #FDF2E9;
+            border-radius: 11px;
+            padding: 46px;
+
+            h3 {
+                font-weight: 500;
+                font-size: 20px;
+                letter-spacing: 0.75px;
+                text-transform: uppercase;
+                color: #E67E22;
+                margin-bottom: 32px;
+            }
+
+            .card__price {
+                font-weight: 500;
+                font-size: 62px;
+                text-transform: uppercase;
+                color: #333333;
+                margin-bottom: 16px;
+
+                span {
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                color: #6F6F6F;
+                margin-bottom: 46px;
+            }
+
+            ul {
+                align-self: flex-start;
+                margin-bottom: 48px;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    color: #555555;
+
+                    &:not(:last-child) {
+                        margin-bottom: 16px;
+                    }
+
+                    span {
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+
+        .card__complete {
+            position: relative;
+            background-color: #FDF2E9;
+            overflow: hidden;
+            border: 0;
+
+            .bookmark {
+                position: absolute;
+                top: 30px;
+                right: -80px;
+                padding: 8px 80px;
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.75px;
+                text-transform: uppercase;
+                color: #000000;
+                background: #FFD43B;
+                transform: rotate(45deg);
+            }
+        }
+    }
+
+    .card__info {
+        font-size: 16px;
+        line-height: 14px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: #555555;
+        margin: 48px 0 96px;
+    }
+
+    .promo__cards {
+        display: flex;
+        justify-content: space-between;
+
+        .promo__card {
+
+            width: 236px;
+
+            .icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 64px;
+                height: 64px;
+                background: #FDF2E9;
+                border-radius: 100%;
+                margin-bottom: 32px;
+            }
+
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 24px;
+                letter-spacing: 0.75px;
+                color: #333333;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 32px;
+                color: #555555;
+            }
+        }
+    }
+}
